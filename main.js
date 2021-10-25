@@ -23,21 +23,37 @@ const createCalendar = () => {
 }
 
 const openDoor = (path, event) => {
-    event.target.parentNode.style.backgroundImage = `url(${path})`;
-    event.target.style.opacity = "0";
-    event.target.style.backgroundColor = "#521751";
-    swal({
-        title: 'Present',
-        text: 'Description of the present',
-        imageUrl: 'https://unsplash.it/400/200',
-        imageWidth: 400,
-        imageHeight: 200,
-        imageAlt: 'Custom image',
-    })
+    if(checkDate(new Date(26-26-2020))){
+        event.target.parentNode.style.backgroundImage = `url(${path})`;
+        event.target.style.opacity = "0";
+        event.target.style.backgroundColor = "#521751";
+        swal({
+            title: 'Present',
+            text: 'Description of the present',
+            imageUrl: 'https://unsplash.it/400/200',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        })
+    }
+    else{
+        swal({
+            title: 'Present',
+            text: 'Too early',
+            imageUrl: 'https://unsplash.it/400/200',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        })
+    }
 
 
 }
 
+const checkDate = (dateParameter) => {
+    var today = new Date();
+    return dateParameter.getDate() >= today.getDate();
+}
 
 createCalendar();
 
