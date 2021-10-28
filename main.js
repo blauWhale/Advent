@@ -2,6 +2,8 @@ const calendarContainer = document.querySelector(".container");
 
 const calendarDays = 24;
 
+var today = new Date('December 01, 1995 03:24:00');
+
 const createCalendar = () => {
     for (let i = 0; i < calendarDays; i++) {
         const calendarDoor = document.createElement("div");
@@ -16,15 +18,22 @@ const createCalendar = () => {
         calendarDoorText.innerHTML = i + 1;
         calendarDoor.appendChild(calendarDoorText);
 
+
+
         imageNumber = i + 1;
-        let imagePath = `./images/course-${imageNumber}.jpg`;
+        let imagePath = `./images/course-9.jpg`;
+        if(calendarDoorText.innerHTML < today.getDate()){
+            calendarDoor.style.backgroundImage = `url(${imagePath})`
+        }
         calendarDoorText.addEventListener("click", openDoor.bind(null,imagePath));
+
     }
 }
 
-const openDoor = (path, event) => {
-    if(checkDate(new Date(26-26-2020))){
-        event.target.parentNode.style.backgroundImage = `url(${path})`;
+const openDoor = (imagePath, event) => {
+    today.getDate()
+    if(event.target.innerHTML <= today.getDate().toString()){
+        event.target.parentNode.style.backgroundImage = `url(${imagePath})`;
         event.target.style.opacity = "0";
         event.target.style.backgroundColor = "#521751";
         swal({
@@ -47,13 +56,8 @@ const openDoor = (path, event) => {
         })
     }
 
-
 }
 
-const checkDate = (dateParameter) => {
-    var today = new Date();
-    return dateParameter.getDate() >= today.getDate();
-}
 
 createCalendar();
 
