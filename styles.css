@@ -27,7 +27,7 @@ body{
     height: 900px;
     border: 5px solid black;
     margin: 15px auto;
-    background-image: url("images/backgroundImage-4.png");
+    background-image: url("images/wimmel.jpg");
     background-size: cover;
     box-shadow: 6px 6px 20px gray;
     display: grid;
@@ -52,11 +52,13 @@ body{
 .text {
     height: 100%;
     width: 100%;
-    color: black;
+    color: darkviolet;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: thin;
     padding: 10px;
     border: 2px solid black;
     transition: opacity 2.5s;
-    font-size: 30px;
-    font-family: Univers-Black, sans-serif
+    font-size: 40px;
+    font-family: Bahnschrift, sans-serif
 
 }
