@@ -27,7 +27,7 @@ body{
     height: 900px;
     border: 5px solid black;
     margin: 15px auto;
-    background-image: url("images/wimmel.jpg");
+    background-image: url("images/wimmelBackground.png");
     background-size: cover;
     box-shadow: 6px 6px 20px gray;
     display: grid;
@@ -61,4 +61,40 @@ body{
     font-size: 40px;
     font-family: Bahnschrift, sans-serif
 
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 360px;
+        height: auto;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(12, 200px);
+        grid-template-areas:
+        "door9 door6"
+        "door11 door7"
+        "door3 door20"
+        "door16 door2"
+        "door14 door12"
+        "door19 door15"
+        "door22 door1"
+        "door5 door23"
+        "door17 door10"
+        "door24 door21"
+        "door8 door18"
+        "door4 door13";
+    }
+
+    .text {
+        height: 100%;
+        width: 100%;
+        color: darkviolet;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: thin;
+        padding: 10px;
+        border: 2px solid black;
+        transition: opacity 2.5s;
+        font-size: 40px;
+        font-family: Bahnschrift, sans-serif
+
+    }
 }
