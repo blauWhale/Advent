@@ -4,7 +4,7 @@ const calendarContainer = document.querySelector(".container");
 
 const calendarDays = 24;
 
-let today = new Date('December 01, 1995 03:24:00');
+let today = new Date();
 
 
 const createCalendar = () => {
