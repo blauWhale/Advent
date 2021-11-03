@@ -6,7 +6,6 @@ const calendarDays = 24;
 
 let today = new Date();
 
-
 const createCalendar = () => {
     let imageNumber;
     for (let i = 0; i < calendarDays; i++) {
@@ -25,7 +24,7 @@ const createCalendar = () => {
 
         imageNumber = i + 1;
         let imagePath = `./images/present.png`;
-        if (calendarDoorText.innerHTML < today.getDate()) {
+        if (calendarDoorText.innerHTML < today.getDay()) {
             calendarDoor.style.backgroundImage = `url(${imagePath})`
         }
         calendarDoorText.addEventListener("click", openDoor.bind(null, imagePath));
@@ -34,8 +33,9 @@ const createCalendar = () => {
 }
 
 const openDoor = (imagePath, event) => {
-    today.getDate()
-    if(event.target.innerHTML <= today.getDate().toString()){
+    if(parseInt(event.target.innerHTML)  <= today.getDay()){
+        console.log(event.target.innerHTML)
+        console.log(today.getDay().toString())
         event.target.parentNode.style.backgroundImage = `url(${imagePath})`;
         event.target.style.opacity = "0";
         event.target.style.backgroundColor = "#521751";
