@@ -4,7 +4,7 @@ const calendarContainer = document.querySelector(".container");
 
 const calendarDays = 24;
 
-let today = new Date('December 25, 1995 03:24:00');
+let today = new Date();
 
 const createCalendar = () => {
     let imageNumber;
@@ -45,20 +45,12 @@ const openDoor = (imagePath, event) => {
                 content.getTitle(event.target.innerHTML),
             text:
                 content.getDescription(event.target.innerHTML),
-            imageUrl: 'https://unsplash.it/400/200',
-            imageWidth: 400,
-            imageHeight: 200,
-            imageAlt: 'Custom image',
         })
     }
     else{
         swal({
-            title: 'Present',
-            text: 'Too early',
-            imageUrl: 'https://unsplash.it/400/200',
-            imageWidth: 400,
-            imageHeight: 200,
-            imageAlt: 'Custom image',
+            title: 'Too early',
+            text: 'Naughty Naughty, no peeking allowed!',
         })
     }
 
