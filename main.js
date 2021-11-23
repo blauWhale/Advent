@@ -28,7 +28,12 @@ const createCalendar = () => {
             calendarDoor.style.backgroundImage = `url(${imagePath})`
             calendarDoor.style.filter = "grayscale(75%)";
         }
+        if (calendarDoorText.innerHTML === today.getDate().toString()) {
+            calendarDoorText.style.borderStyle = `solid`
+            calendarDoorText.style.borderColor = "#E40A2D";
+        }
         calendarDoorText.addEventListener("click", openDoor.bind(null, imagePath));
+
 
     }
 }

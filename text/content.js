@@ -8,7 +8,7 @@ descriptions.set("1", "For your first present I got you a sweet surprise to ligh
 titles.set("2","And now to something useful...")
 descriptions.set("2", "Hair ties for your collection! You can never have enough!")
 
-titles.set("3","A song a day,...")
+titles.set("3","🎵 A song a day... 🎵")
 descriptions.set("3","(...) I was meant to love you for the rest of my life! (...)<br><a href='https://open.spotify.com/track/5KjiL7bBqZC7qHqBOmT2fh?si=1ee4c03b51324035'>Listen</a>")
 
 
@@ -21,8 +21,16 @@ descriptions.set("5", "Your head is envying your hands! Let's fix t(hat)")
 titles.set("6","Samichlaus")
 descriptions.set("6", "A gritibänz and a samichlaus walk into a bar...")
 
-titles.set("7","I am a poet")
-descriptions.set("7", "A poem")
+titles.set("7","🎵 A song a day... 🎵")
+descriptions.set("7","(...) Ahh, the first, my last, my everything\n" +
+    "And the answer to all my dreams<br>" +
+    "You're my sun, my moon, my guiding star<br>" +
+    "My kind of wonderful, that's what you are<br>" +
+    "I know there's only, only one like you<br>" +
+    "There's no way, they could have made two<br>" +
+    "You're all I'm living for<br>" +
+    "Your love I'll keep for evermore<br>" +
+    "You're the first, you're the last, my everything (...)<br><a href='https://open.spotify.com/track/5dXJ1SoksFkgdx3yxIoYNO?si=e5c3cb10ce1c4405'>Listen</a>")
 
 titles.set("8","Oh you gonna love this one")
 descriptions.set("8", "Another candle for your collection. Berry good scent")
