@@ -38,8 +38,18 @@ descriptions.set("8", "Another candle for your collection. Berry good scent")
 titles.set("9","A trip to Norway")
 descriptions.set("9", "You probably ran out by now, so I got you some good lip balm for your lips to balm.")
 
-titles.set("10","I am a poet")
-descriptions.set("10", "A poem.")
+titles.set("10","🎵 A song a day... 🎵")
+descriptions.set("10","If I ever do you wrong<br>" +
+    "If I ever leave you all alone<br>" +
+    "If I ever tell you a lie<br>" +
+    "And, if I ever make you cry<br>" +
+    "Baby, I hope a fire (I hope a fire)<br>" +
+    "Light on my pie (light on my pie)<br>" +
+    "I hope a bee sting me over my eye (over my eye)<br>" +
+    "You know I love my pie (I love my pie)<br>" +
+    "And I love my eye, baby (I love my eye)<br>" +
+    "So you know I'll never do you wrong (...)<br><a href='https://open.spotify.com/track/6hG59WXc951utGHcrbhr4V?si=c80200574e544081'>Listen</a>")
+
 
 titles.set("11","A surprise over dinner")
 descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to dinner with you.")
@@ -53,11 +63,20 @@ descriptions.set("13", "Ha Ha, what a joke. But I really did get you some nice c
 titles.set("14","It's Monday, that really Socks!")
 descriptions.set("14", "Ha Ha, what a joke. But I really did get you some nice christmas socks.")
 
-titles.set("15","I am a poet")
-descriptions.set("15", "A poem.")
+titles.set("15","🎵 A song a day... 🎵")
+descriptions.set("15","<br><a href='https://open.spotify.com/track/2ZiyWdqAwaXENw0l0yDVIG?si=a1a758ae32dd4a19'>Listen</a>")
 
+titles.set("16","It's all gravy baby")
+descriptions.set("16", "Let's get you excited and ready for London with your very own Gravy Set!!!!!!!")
 
+titles.set("17","Lörking Klasse")
+descriptions.set("17", "Got you a nice little shirt from the skeleton boi, hope you like it <3")
 
+titles.set("18","🎵 A song a day... 🎵")
+descriptions.set("18", "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Listen</a>")
+
+titles.set("19","Donation")
+descriptions.set("19", "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Da Hi</a>")
 
 
 export const getTitle = (date) => {
