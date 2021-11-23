@@ -1,5 +1,6 @@
 const titles = new Map();
 const descriptions = new Map();
+const html = new Map();
 
 titles.set("1","Sweets for my sweety")
 descriptions.set("1", "For your first present I got you a sweet surprise to light up your day!")
@@ -7,8 +8,9 @@ descriptions.set("1", "For your first present I got you a sweet surprise to ligh
 titles.set("2","And now to something useful...")
 descriptions.set("2", "Hair ties for your collection! You can never have enough!")
 
-titles.set("3","I am a poet")
-descriptions.set("3", "A poem")
+titles.set("3","A song a day,...")
+descriptions.set("3","(...) I was meant to love you for the rest of my life! (...)<br><a href='https://open.spotify.com/track/5KjiL7bBqZC7qHqBOmT2fh?si=1ee4c03b51324035'>Listen</a>")
+
 
 titles.set("4","Hot stuff!")
 descriptions.set("4", "A pair of hand warmes for these cold days")
@@ -60,6 +62,14 @@ export const getTitle = (date) => {
 
 export const getDescription = (date) => {
     for (let [key, value] of descriptions) {
+        if(key === date ){
+            return value;
+        }
+    }
+}
+
+export const getHTML = (date) => {
+    for (let [key, value] of html) {
         if(key === date ){
             return value;
         }

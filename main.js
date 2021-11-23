@@ -40,11 +40,13 @@ const openDoor = (imagePath, event) => {
         event.target.parentNode.style.backgroundImage = `url(${imagePath})`;
         event.target.style.opacity = "0";
         event.target.style.backgroundColor = "#521751";
+        let element = document.createElement('div')
+        element.innerHTML =  content.getDescription(event.target.innerHTML)
         swal({
             title:
                 content.getTitle(event.target.innerHTML),
-            text:
-                content.getDescription(event.target.innerHTML),
+            content:
+                element,
         })
     }
     else{
