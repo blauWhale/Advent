@@ -30,7 +30,7 @@ const createCalendar = () => {
         }
         if (calendarDoorText.innerHTML === today.getDate().toString()) {
             calendarDoorText.style.borderStyle = `solid`
-            calendarDoorText.style.borderColor = "#E40A2D";
+            calendarDoorText.style.borderColor = getRandomColor();
         }
         calendarDoorText.addEventListener("click", openDoor.bind(null, imagePath));
 
@@ -63,6 +63,14 @@ const openDoor = (imagePath, event) => {
 
 }
 
+function getRandomColor() {
+    let letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
 
 createCalendar();
 
