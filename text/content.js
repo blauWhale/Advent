@@ -51,8 +51,8 @@ descriptions.set("10","If I ever do you wrong<br>" +
     "So you know I'll never do you wrong (...)<br><a href='https://open.spotify.com/track/6hG59WXc951utGHcrbhr4V?si=c80200574e544081'>Listen</a>")
 
 
-titles.set("11","A surprise over dinner")
-descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to dinner with you.")
+titles.set("11","A surprise over brunch")
+descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to many many years (&brunch) with you.")
 
 titles.set("12","Relaxing Time")
 descriptions.set("12", "Got you some facemasks to relax on this sunday")
@@ -60,23 +60,27 @@ descriptions.set("12", "Got you some facemasks to relax on this sunday")
 titles.set("13","It's Monday, that really Socks!")
 descriptions.set("13", "Ha Ha, what a joke. But I really did get you some nice christmas socks.")
 
-titles.set("14","It's Monday, that really Socks!")
-descriptions.set("14", "Ha Ha, what a joke. But I really did get you some nice christmas socks.")
+titles.set("14","Muggy")
+descriptions.set("14", "You better get your mugshot taken cause you got a brand new mug waiting for you.")
 
 titles.set("15","🎵 A song a day... 🎵")
-descriptions.set("15","<br><a href='https://open.spotify.com/track/2ZiyWdqAwaXENw0l0yDVIG?si=a1a758ae32dd4a19'>Listen</a>")
+descriptions.set("15","Very nice spoken word over a lo-fi beat. Give it a listen:" +
+    "<br><a href='https://open.spotify.com/track/2ZiyWdqAwaXENw0l0yDVIG?si=a1a758ae32dd4a19'>Listen</a>")
 
 titles.set("16","It's all gravy baby")
-descriptions.set("16", "Let's get you excited and ready for London with your very own Gravy Set!!!!!!!")
+descriptions.set("16", "If we can't go to the UK, we bring bit of the UK back here. You are the proud new owner of your very own gravy set!!!!")
 
 titles.set("17","Lörking Klasse")
 descriptions.set("17", "Got you a nice little shirt from the skeleton boi, hope you like it <3")
 
 titles.set("18","🎵 A song a day... 🎵")
-descriptions.set("18", "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Listen</a>")
+descriptions.set("18", "Oh baby, you're my shining star<br>" +
+    "That's what you are<br>" +
+    "You're my everything<br>" +
+    "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Listen</a>")
 
 titles.set("19","Donation")
-descriptions.set("19", "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Da Hi</a>")
+descriptions.set("19", "Donation to:<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Here</a>")
 
 
 export const getTitle = (date) => {
