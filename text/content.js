@@ -80,7 +80,26 @@ descriptions.set("18", "Oh baby, you're my shining star<br>" +
     "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Listen</a>")
 
 titles.set("19","Donation")
-descriptions.set("19", "Donation to:<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Here</a>")
+descriptions.set("19", "19CHF donation to:" +
+    "<br><a href='https://mirsindvoda.ch/spenden/'>Kollektiv vo da</a>"+
+    "<br><a href='https://feministischerstreikzuerich.ch/jetzt-spenden/'>Frauenstreik</a>"+
+    "<br><a href='https://www.zuerchertierschutz.ch/de/helfen/spenden/weihnachtsaktion-welpen-retten'>Tierschutz Zürich</a>")
+
+titles.set("20","Table for two")
+descriptions.set("20", "Ramen yum yum + folding your wash :)")
+
+titles.set("21","Illuminalium")
+descriptions.set("21", "Let's go look at lights and have so yummy snack + drinks :D")
+
+titles.set("22","Let's go ice skating")
+descriptions.set("22", "Dolder is waiting with some fresh Ice for us to crash on our bums on!")
+
+titles.set("23","Lönch together <3")
+descriptions.set("23", "I'll join you for lunch near Manegg, your choice :)")
+
+titles.set("24","🎵 A song for christmas🎵")
+descriptions.set("24", "Merry Christmas baby love you so much and excited for dinner at mine tonight ❤<br>" +
+    "<br><a href='https://open.spotify.com/track/4kKdvXD0ez7jp1296JmAts?si=4edcdef37d9c457b'>Listen</a>")
 
 
 export const getTitle = (date) => {
