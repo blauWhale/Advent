@@ -88,8 +88,10 @@ descriptions.set("19", "19CHF donation to:" +
 titles.set("20","Table for two")
 descriptions.set("20", "Ramen yum yum + folding your wash :)")
 
-titles.set("21","Illuminalium")
-descriptions.set("21", "Let's go look at lights and have so yummy snack + drinks :D")
+titles.set("21","🎵 Enjoy this Jazzy Christmas playlist🎵")
+descriptions.set("21", "🎅❤<br>" +
+    "<br><a href='https://open.spotify.com/playlist/37i9dQZF1DX5D4gDh3HAsM?si=8c444cc2fe7147f0'>Listen</a>")
+
 
 titles.set("22","Let's go ice skating")
 descriptions.set("22", "Dolder is waiting with some fresh Ice for us to crash on our bums on!")
