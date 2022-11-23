@@ -2,24 +2,24 @@ const titles = new Map();
 const descriptions = new Map();
 const html = new Map();
 
-titles.set("1","Sweets for my sweety")
+titles.set("1","Vegan Sweets for my sweety")
 descriptions.set("1", "For your first present I got you a sweet surprise to light up your day!")
 
-titles.set("2","And now to something useful...")
-descriptions.set("2", "Hair ties for your collection! You can never have enough!")
+titles.set("2","A hairy situation")
+descriptions.set("2", "More hairties to loose all ova the apartment")
 
 titles.set("3","🎵 A song a day... 🎵")
 descriptions.set("3","(...) I was meant to love you for the rest of my life! (...)<br><a href='https://open.spotify.com/track/5KjiL7bBqZC7qHqBOmT2fh?si=1ee4c03b51324035'>Listen</a>")
 
 
-titles.set("4","Hot stuff!")
-descriptions.set("4", "A pair of hand warmes for these cold days")
+titles.set("4","A cold one")
+descriptions.set("4", "yummy sip sip drink to enjoy")
 
-titles.set("5","Beanie Baby")
-descriptions.set("5", "Your head is envying your hands! Let's fix t(hat)")
+titles.set("5","Stockimaker 9000")
+descriptions.set("5", "I bought you the peak of Stockimaking technologie as of today.")
 
 titles.set("6","Samichlaus")
-descriptions.set("6", "A gritibänz and a samichlaus walk into a bar...")
+descriptions.set("6", "Samichlaustag - lets see who has the coolest vegan säckli")
 
 titles.set("7","🎵 A song a day... 🎵")
 descriptions.set("7","(...) Ahh, the first, my last, my everything\n" +
@@ -32,11 +32,11 @@ descriptions.set("7","(...) Ahh, the first, my last, my everything\n" +
     "Your love I'll keep for evermore<br>" +
     "You're the first, you're the last, my everything (...)<br><a href='https://open.spotify.com/track/5dXJ1SoksFkgdx3yxIoYNO?si=e5c3cb10ce1c4405'>Listen</a>")
 
-titles.set("8","Oh you gonna love this one")
-descriptions.set("8", "Another candle for your collection. Berry good scent")
+titles.set("8","A song of Scent and Fire")
+descriptions.set("8", "Hopefully not a Firestarter but a nice cozy smelling candle for these cold days")
 
-titles.set("9","A trip to Norway")
-descriptions.set("9", "You probably ran out by now, so I got you some good lip balm for your lips to balm.")
+titles.set("9","A dinner in Colmar")
+descriptions.set("9", "Dinner reservation waiting at <a>Restaurant</a><br>")
 
 titles.set("10","🎵 A song a day... 🎵")
 descriptions.set("10","If I ever do you wrong<br>" +
@@ -51,53 +51,50 @@ descriptions.set("10","If I ever do you wrong<br>" +
     "So you know I'll never do you wrong (...)<br><a href='https://open.spotify.com/track/6hG59WXc951utGHcrbhr4V?si=c80200574e544081'>Listen</a>")
 
 
-titles.set("11","A surprise over brunch")
-descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to many many years (&brunch) with you.")
+titles.set("11","A surprise over breakfast")
+descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to many many years (&breakfast) with you.")
 
-titles.set("12","Relaxing Time")
-descriptions.set("12", "Got you some facemasks to relax on this sunday")
+titles.set("12","Duck Duck go")
+descriptions.set("12", "a ducking suprise in the morning")
 
-titles.set("13","It's Monday, that really Socks!")
+titles.set("13","Wow, that really Socks!")
 descriptions.set("13", "Ha Ha, what a joke. But I really did get you some nice christmas socks.")
 
-titles.set("14","Muggy")
-descriptions.set("14", "You better get your mugshot taken cause you got a brand new mug waiting for you.")
+titles.set("14","Schoki und so")
+descriptions.set("14", "Yummy sweets for u today")
 
 titles.set("15","🎵 A song a day... 🎵")
 descriptions.set("15","Very nice spoken word over a lo-fi beat. Give it a listen:" +
     "<br><a href='https://open.spotify.com/track/2ZiyWdqAwaXENw0l0yDVIG?si=a1a758ae32dd4a19'>Listen</a>")
 
-titles.set("16","It's all gravy baby")
-descriptions.set("16", "If we can't go to the UK, we bring bit of the UK back here. You are the proud new owner of your very own gravy set!!!!")
+titles.set("16","even more schoki")
+descriptions.set("16", "had enough yet? let me know")
 
-titles.set("17","Lörking Klasse")
-descriptions.set("17", "Got you a nice little shirt from the skeleton boi, hope you like it <3")
+titles.set("17","Comy warm and rep the Stadclub")
+descriptions.set("17", "FCZ beste")
 
-titles.set("18","🎵 A song a day... 🎵")
-descriptions.set("18", "Oh baby, you're my shining star<br>" +
-    "That's what you are<br>" +
-    "You're my everything<br>" +
-    "<br><a href='https://open.spotify.com/track/2yAyJTsSnsOtbA3Qups4zV?si=e14eaafe03d04b7a'>Listen</a>")
+titles.set("18","Donation")
+descriptions.set("18", "10CHF donation to:" +
+"<br><a href='https://mirsindvoda.ch/spenden/'>Kollektiv vo da</a>"+
+"<br><a href='https://feministischerstreikzuerich.ch/jetzt-spenden/'>Frauenstreik</a>"+
+"<br><a href='https://www.zuerchertierschutz.ch/de/helfen/spenden/weihnachtsaktion-welpen-retten'>Tierschutz Zürich</a>")
 
-titles.set("19","Donation")
-descriptions.set("19", "19CHF donation to:" +
-    "<br><a href='https://mirsindvoda.ch/spenden/'>Kollektiv vo da</a>"+
-    "<br><a href='https://feministischerstreikzuerich.ch/jetzt-spenden/'>Frauenstreik</a>"+
-    "<br><a href='https://www.zuerchertierschutz.ch/de/helfen/spenden/weihnachtsaktion-welpen-retten'>Tierschutz Zürich</a>")
+titles.set("19","Last schoki I swear")
+descriptions.set("19", "can never have enough tho")
 
-titles.set("20","Table for two")
-descriptions.set("20", "Ramen yum yum + folding your wash :)")
+titles.set("20","mög")
+descriptions.set("20", "mögface")
 
 titles.set("21","🎵 Enjoy this Jazzy Christmas playlist🎵")
 descriptions.set("21", "🎅❤<br>" +
     "<br><a href='https://open.spotify.com/playlist/37i9dQZF1DX5D4gDh3HAsM?si=8c444cc2fe7147f0'>Listen</a>")
 
 
-titles.set("22","Let's go ice skating")
-descriptions.set("22", "Dolder is waiting with some fresh Ice for us to crash on our bums on!")
+titles.set("22","snack attack")
+descriptions.set("22", "salty yummy snack for u today")
 
-titles.set("23","Lönch together <3")
-descriptions.set("23", "I'll join you for lunch near Manegg, your choice :)")
+titles.set("23","A nice calandar for you")
+descriptions.set("23", "I know you don't want one but have one anyway, its on the house")
 
 titles.set("24","🎵 A song for christmas🎵")
 descriptions.set("24", "Merry Christmas baby love you so much and excited for dinner at mine tonight ❤<br>" +
