@@ -9,28 +9,25 @@ titles.set("2","A hairy situation")
 descriptions.set("2", "More hairties to loose all ova the apartment")
 
 titles.set("3","🎵 A song a day... 🎵")
-descriptions.set("3","(...) I was meant to love you for the rest of my life! (...)<br><a href='https://open.spotify.com/track/5KjiL7bBqZC7qHqBOmT2fh?si=1ee4c03b51324035'>Listen</a>")
+descriptions.set("3","(...) You can spend all of my money, all of my money<br>"+
+"All of my money, all of my time<br>" +
+"You can spend all of my money, all of my money<br>"+
+"All of my money, all of my time<br>(...)<br><a href='https://open.spotify.com/track/0XzbAAWtu0zx6bnDbBUcOs?si=c50e61fa38f2483c'>Listen</a>")
 
 
 titles.set("4","A cold one")
 descriptions.set("4", "yummy sip sip drink to enjoy")
 
 titles.set("5","Stockimaker 9000")
-descriptions.set("5", "I bought you the peak of Stockimaking technologie as of today.")
+descriptions.set("5", "I bought you the peak of Stockimaking technologie as of today.🥔")
 
 titles.set("6","Samichlaus")
 descriptions.set("6", "Samichlaustag - lets see who has the coolest vegan säckli")
 
 titles.set("7","🎵 A song a day... 🎵")
-descriptions.set("7","(...) Ahh, the first, my last, my everything\n" +
-    "And the answer to all my dreams<br>" +
-    "You're my sun, my moon, my guiding star<br>" +
-    "My kind of wonderful, that's what you are<br>" +
-    "I know there's only, only one like you<br>" +
-    "There's no way, they could have made two<br>" +
-    "You're all I'm living for<br>" +
-    "Your love I'll keep for evermore<br>" +
-    "You're the first, you're the last, my everything (...)<br><a href='https://open.spotify.com/track/5dXJ1SoksFkgdx3yxIoYNO?si=e5c3cb10ce1c4405'>Listen</a>")
+descriptions.set("7","(...) Ain't nothing without a woman though<br>"+
+"Woman to woman, I just wanna see you glow<br>" +
+"Tell 'em what's up (...)<br><a href='https://open.spotify.com/track/5dXJ1SoksFkgdx3yxIoYNO?si=e5c3cb10ce1c4405'>Listen</a>")
 
 titles.set("8","A song of Scent and Fire")
 descriptions.set("8", "Hopefully not a Firestarter but a nice cozy smelling candle for these cold days")
