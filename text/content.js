@@ -27,7 +27,7 @@ descriptions.set("6", "Samichlaustag - lets see who has the coolest vegan säckl
 titles.set("7","🎵 A song a day... 🎵")
 descriptions.set("7","(...) Ain't nothing without a woman though<br>"+
 "Woman to woman, I just wanna see you glow<br>" +
-"Tell 'em what's up (...)<br><a href='https://open.spotify.com/track/5dXJ1SoksFkgdx3yxIoYNO?si=e5c3cb10ce1c4405'>Listen</a>")
+"Tell 'em what's up (...)<br><a href='https://open.spotify.com/track/2ruY7BpsZRwr6UUzLeDSk1?si=203ddd9e062141d1'>Listen</a>")
 
 titles.set("8","A song of Scent and Fire")
 descriptions.set("8", "Hopefully not a Firestarter but a nice cozy smelling candle for these cold days")
