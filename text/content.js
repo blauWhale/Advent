@@ -33,29 +33,25 @@ titles.set("8","A song of Scent and Fire")
 descriptions.set("8", "Hopefully not a Firestarter but a nice cozy smelling candle for these cold days")
 
 titles.set("9","A dinner in Colmar")
-descriptions.set("9", "Dinner reservation waiting at <a>Restaurant</a><br>")
+descriptions.set("9", "Dinner on me at <a href='https://goo.gl/maps/AScNhSFrYA7CEsi5A'>La Cour des Anges</a><br>or anywhere else<br>maybe some cheeky pre-dinner drinks aty<br>"+
+"<a href='https://goo.gl/maps/EjqFrEv99GfTSEteA'>Chez moi</a><br>")
 
 titles.set("10","🎵 A song a day... 🎵")
-descriptions.set("10","If I ever do you wrong<br>" +
-    "If I ever leave you all alone<br>" +
-    "If I ever tell you a lie<br>" +
-    "And, if I ever make you cry<br>" +
-    "Baby, I hope a fire (I hope a fire)<br>" +
-    "Light on my pie (light on my pie)<br>" +
-    "I hope a bee sting me over my eye (over my eye)<br>" +
-    "You know I love my pie (I love my pie)<br>" +
-    "And I love my eye, baby (I love my eye)<br>" +
-    "So you know I'll never do you wrong (...)<br><a href='https://open.spotify.com/track/6hG59WXc951utGHcrbhr4V?si=c80200574e544081'>Listen</a>")
+descriptions.set("10","In the meantime let me tell you that I love you<br>" +
+    "Buona sera, signorina kiss me goodnight    <br>" +
+    "Buona sera, signorina kiss me goodnight    <br>" +
+    "<a href='https://open.spotify.com/track/3kG1JhcsWlWbG0SHncyn36?si=5d36f2d269f04f7e'>Listen</a>")
 
 
-titles.set("11","A surprise over breakfast")
-descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to many many years (&breakfast) with you.")
+titles.set("11","breakfast at tiffany's")
+descriptions.set("11", "Happy Anniversary <3 You are the best girlfriend anyone can wish for and I love you. Looking foward to many many years (&breakfast) with you.<br>"+
+"i hope i already bought you nice jelwery otherwise now is the time to go out and purchase some")
 
-titles.set("12","Duck Duck go")
-descriptions.set("12", "a ducking suprise in the morning")
+titles.set("12","Cozy socks to start of your week")
+descriptions.set("12", "🧦🧦🧦🧦🧦")
 
-titles.set("13","Wow, that really Socks!")
-descriptions.set("13", "Ha Ha, what a joke. But I really did get you some nice christmas socks.")
+titles.set("13","Wow, that really Socks! Even more socks")
+descriptions.set("13", "Ha Ha, what a joke. But I really did get you some nice christmas socks for your christmas socks.")
 
 titles.set("14","Schoki und so")
 descriptions.set("14", "Yummy sweets for u today")
