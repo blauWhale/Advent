@@ -63,7 +63,7 @@ descriptions.set("15","I want you to stay forever" +
 titles.set("16","even more schoki")
 descriptions.set("16", "had enough yet? let me know")
 
-titles.set("17","Comy warm and rep the Stadclub")
+titles.set("17","Cozy warm and rep the Stadclub")
 descriptions.set("17", "FCZ beste")
 
 titles.set("18","Donation")
